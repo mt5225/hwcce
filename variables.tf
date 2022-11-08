@@ -39,7 +39,7 @@ variable "cluster_flavor" {
 
 variable "num_node" {
   type        = number
-  description = "number of nodes"
+  description = "(Optional) number of nodes"
   default     = 2
 }
 
